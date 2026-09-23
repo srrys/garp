@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="sty.css">
+  <script>
+    function garp(){
+      while (true) {
+        setTimeout(document.getElementById("img").src = "img1.jpg", 2000);
+        setTimeout(document.getElementById("img").src = "img2.jpg", 2000);
+        setTimeout(document.getElementById("img").src = "img3.jpg", 2000);
+      }
+    }
+  </script>
+</head>
+<body onload="garp()">
