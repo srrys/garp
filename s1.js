@@ -1,4 +1,4 @@
 function test() {
   const gi = (id) => document.getElementById(id);
-  gi("").innerHTML = "test";
+  gi("button").innerHTML = "test";
 }
