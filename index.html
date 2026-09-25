@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="sty.css">
-  <script>
-    setTimeout(garp(), 4000)
-    function garp() {
-      setTimeout(document.getElementById("img").src = "img1.jpg", 2000);
-      setTimeout(document.getElementById("img").src = "img2.jpg", 2000);
-      setTimeout(document.getElementById("img").src = "img3.jpg", 2000);
-    }
-  </script>
+  <script src="s1.js"></script>
 </head>
 <body>
   <img src="img1.jpg" id="img">
-  <button onlclick="garp()">Change</button>
+  <button onlclick="garp()">Launch game</button>
 </body>
